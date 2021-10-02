@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./world.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <script src="./world.js" defer type="module"></script>
+  
+  <title>Minecraft World</title>
+</head>
+<body>
+  <div class="world-game">
+    <div class="invetory-metrials">
+      <h1>your metrials</h1>
+        <div class="matrial-box grass">0</div>
+        <div class="matrial-box lava">0</div>
+        <div class="matrial-box soil">0</div>  
+        <div class="matrial-box stone">0</div>
+        <div class="matrial-box treeBranch">0</div>
+        <div class="matrial-box treeTrunck">0</div>
+        <div class="matrial-box water">0</div>
+        <div class="matrial-box smoke">0</div>
+    </div>
+
+    <div class="world-matrix">
+       </div>
+
+    <div class="my-tools">
+      <h1>choose your tools</h1>
+      <input type="button" value="click to rest-game" id="rest" onClick="window.location.reload();">
+      <div class="tool pickaxe">
+        <div class="tool-list" id="pickaxe"></div>
+        <div class="tool_name">pickaxe</div>
+      </div>
+      <div class="tool shovel">
+        <div class="tool-list" id="shovel"></div>
+        <div class="tool_name">shovel</div>
+      </div>
+      <div class="tool axe">
+        <div class="tool-list" id="axe"></div>
+        <div class="tool_name">axe</div>
+      </div>
+      <div class="tool pail">
+        <div class="tool-list" id="pail"></div>
+        <div class="tool_name">pail</div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
